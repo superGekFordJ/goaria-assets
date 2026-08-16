@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="186" height="52" viewBox="0 0 186 52">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="badge-bg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1E1E20"/>
+      <stop offset="100%" stop-color="#141416"/>
+    </linearGradient>
+
+    <!-- Edge Logo Gradients -->
+    <linearGradient id="edge-swirl-top" x1="85%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#50E698"/>
+      <stop offset="35%" stop-color="#00D2B4"/>
+      <stop offset="70%" stop-color="#00A2ED"/>
+      <stop offset="100%" stop-color="#0078D7"/>
+    </linearGradient>
+    <radialGradient id="edge-swirl-mid" cx="30%" cy="30%" r="70%">
+      <stop offset="0%" stop-color="#00B7F0"/>
+      <stop offset="45%" stop-color="#0078D7"/>
+      <stop offset="100%" stop-color="#00459E"/>
+    </radialGradient>
+    <linearGradient id="edge-swirl-bottom" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#002D72"/>
+      <stop offset="50%" stop-color="#0052A3"/>
+      <stop offset="100%" stop-color="#0078D7"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Badge Background Container -->
+  <rect x="0.5" y="0.5" width="185" height="51" rx="6" fill="url(#badge-bg)" stroke="#3E3E42" stroke-width="1"/>
+
+  <!-- Microsoft Edge Wave Icon (32x32) -->
+  <g transform="translate(13, 10)">
+    <!-- Bottom arc / foundation -->
+    <path fill="url(#edge-swirl-bottom)" d="M16.14 31.96c8.53 0 15.46-6.72 15.82-15.17-.6 4.7-4.43 8.32-9.14 8.32-5.1 0-9.24-4.14-9.24-9.24 0-4.08 2.65-7.55 6.36-8.77-.38-.07-.77-.1-1.17-.1C9.69 7 2.33 13.79 2.02 22.39c-.01.3-.02.6-.02.9 0 4.79 3.88 8.67 8.67 8.67h5.47z"/>
+    <!-- Middle body -->
+    <path fill="url(#edge-swirl-mid)" d="M31.96 16.79C31.42 7.55 23.86.17 14.54.01 9.09-.08 4.26 2.37 1.09 6.25c3.3-1.63 7.07-2.3 11.02-1.74 6.89.98 12.3 6.38 13.28 13.27.42 2.93-.16 5.79-1.52 8.18 4.88-2.18 8.09-5.37 8.09-9.17z"/>
+    <!-- Top crest -->
+    <path fill="url(#edge-swirl-top)" d="M14.54.01C19.14.08 23.4 1.83 26.65 4.8c-3.69-.17-7.23 1.34-9.84 4.09-2.73 2.88-3.95 6.83-3.32 10.74-.97-.93-1.57-2.22-1.57-3.65 0-5.1 4.14-9.24 9.24-9.24 1.06 0 2.07.18 3.01.5C21.75 4.1 17.5 2.1 12.75 2.02 13.35.7 14.1.02 14.54.01z"/>
+  </g>
+
+  <!-- Typography: Segoe UI (Standard Microsoft Store Typeface) -->
+  <text x="54" y="21" fill="#D1D1D6" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-weight="500" font-size="11" letter-spacing="0.2">Get it from</text>
+  <text x="54" y="39" fill="#FFFFFF" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-weight="700" font-size="15.5" letter-spacing="-0.2">Microsoft Edge</text>
+</svg>
